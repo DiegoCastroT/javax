@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<libreria>
+    <listaLibros>
+        <libro>
+            <autor>Autor1</autor>
+            <nombre>Libro1</nombre>
+            <editorial>Editorial1</editorial>
+            <isbn>isbn1</isbn>
+        </libro>
+        <libro>
+            <autor>Autor2</autor>
+            <nombre>Libro2</nombre>
+            <editorial>Editorial2</editorial>
+            <isbn>isbn2</isbn>
+        </libro>
+        <libro>
+            <autor>Autor3</autor>
+            <nombre>Libro3</nombre>
+            <editorial>Editorial3</editorial>
+            <isbn>isbn3</isbn>
+        </libro>
+        <libro>
+            <autor>Autor4</autor>
+            <nombre>Libro4</nombre>
+            <editorial>Editorial4</editorial>
+            <isbn>isbn4</isbn>
+        </libro>
+    </listaLibros>
+    <lugar>ia</lugar>
+    <nombre>Libreria ia</nombre>
+</libreria>
