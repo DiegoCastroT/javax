@@ -1,6 +1,7 @@
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
 import java.io.File;
 import java.util.ArrayList;
 
@@ -22,5 +23,7 @@ public class Main {
         marshaller.marshal(libreria, System.out);
         marshaller.marshal(libreria, new File("libreria.xml"));
 
+        Unmarshaller unmarshaller = context.createUnmarshaller();
+        unmarshaller.unmarshal(new File("libreria.xml"));
     }
 }
