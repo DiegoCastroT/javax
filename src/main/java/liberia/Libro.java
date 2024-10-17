@@ -1,3 +1,5 @@
+package liberia;
+
 import javax.xml.bind.annotation.XmlType;
 
 @XmlType(propOrder = {"autor", "nombre", "editorial", "isbn"})

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<personas>
+    <persona>
+        <nombre>Pepe</nombre>
+        <telefono>12345678</telefono>
+        <dni>71986574Y</dni>
+        <edad>19</edad>
+    </persona>
+    <persona>
+        <nombre>Pepe2</nombre>
+        <telefono>22345678</telefono>
+        <dni>71986574Y</dni>
+        <edad>20</edad>
+    </persona>
+    <persona>
+        <nombre>Pepe3</nombre>
+        <telefono>32345678</telefono>
+        <dni>71986574Y</dni>
+        <edad>21</edad>
+    </persona>
+    <persona>
+        <nombre>Pepe4</nombre>
+        <telefono>42345678</telefono>
+        <dni>71986574Y</dni>
+        <edad>22</edad>
+    </persona>
+</personas>

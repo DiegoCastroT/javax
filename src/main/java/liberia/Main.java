@@ -1,3 +1,5 @@
+package liberia;
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
@@ -13,7 +15,7 @@ public class Main {
 
         ArrayList<Libro> libros = new ArrayList<>();
 
-        Libreria libreria = new Libreria(libros, "Libreria ia", "ia");
+        Libreria libreria = new Libreria(libros, "liberia.Libreria ia", "ia");
         libreria.rellenarLibreria();
 
         context = JAXBContext.newInstance(Libreria.class);
