@@ -16,7 +16,7 @@ public class Main {
         FileInputStream fis = null;
 
         try{
-            fis = new FileInputStream("db.propierties");
+            fis = new FileInputStream("src/main/java/db.propierties");
             props.load(fis);
 
             ds = new MysqlDataSource();
